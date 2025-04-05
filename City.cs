@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
@@ -9,13 +10,14 @@ namespace database_app
 {
     public class City
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Id { get; set; }
+        [Key]
         public string name { get; set; }
         public int timezone { get; set; }
-        public List<Description> weather { get; set; }
         public Temperature main { get; set; }
+
         public Country sys { get; set; }
+
+        public List<Description> weather { get; set; }
 
         public override string ToString()
         {
@@ -24,5 +26,27 @@ namespace database_app
                 $"Państwo: {sys.country}";
         }
 
+    }
+
+    public class Country
+    {
+        [Key] 
+        public string country { get; set; }
+        public List <string> cities { get; set; }
+
+        public override string ToString()
+        {
+            string output = string.Empty;
+            output += $"Państwo: {this.country}";
+            if (cities != null)
+            {
+                output += "\tMiasta: ";
+                foreach (var city in cities)
+                {
+                    output += city + "\t";
+                }
+            }
+            return output;
+        }
     }
 }

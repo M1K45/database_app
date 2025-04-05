@@ -1,0 +1,195 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Asus\\Desktop\\database_app\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{72A641D3-743D-4C63-9773-53C4359EBB4F}|database_app.csproj|c:\\users\\asus\\desktop\\database_app\\weatherdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A641D3-743D-4C63-9773-53C4359EBB4F}|database_app.csproj|solutionrelative:weatherdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A641D3-743D-4C63-9773-53C4359EBB4F}|database_app.csproj|c:\\users\\asus\\desktop\\database_app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A641D3-743D-4C63-9773-53C4359EBB4F}|database_app.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A641D3-743D-4C63-9773-53C4359EBB4F}|database_app.csproj|c:\\users\\asus\\desktop\\database_app\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A641D3-743D-4C63-9773-53C4359EBB4F}|database_app.csproj|solutionrelative:city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A641D3-743D-4C63-9773-53C4359EBB4F}|database_app.csproj|c:\\users\\asus\\desktop\\database_app\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A641D3-743D-4C63-9773-53C4359EBB4F}|database_app.csproj|solutionrelative:data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A641D3-743D-4C63-9773-53C4359EBB4F}|database_app.csproj|c:\\users\\asus\\desktop\\database_app\\weather.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A641D3-743D-4C63-9773-53C4359EBB4F}|database_app.csproj|solutionrelative:weather.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE9F65AD-A020-4D6D-9460-9262B9107AC5}|..\\WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\asus\\desktop\\winformsapp1\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A641D3-743D-4C63-9773-53C4359EBB4F}|database_app.csproj|c:\\users\\asus\\desktop\\database_app\\.gitattributes||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{72A641D3-743D-4C63-9773-53C4359EBB4F}|database_app.csproj|solutionrelative:.gitattributes||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE9F65AD-A020-4D6D-9460-9262B9107AC5}|..\\WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\asus\\desktop\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE9F65AD-A020-4D6D-9460-9262B9107AC5}|..\\WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\asus\\desktop\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Data.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\database_app\\Data.cs",
+              "RelativeDocumentMoniker": "Data.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\database_app\\Data.cs",
+              "RelativeToolTip": "Data.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T16:31:35.827Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "City.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\database_app\\City.cs",
+              "RelativeDocumentMoniker": "City.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\database_app\\City.cs",
+              "RelativeToolTip": "City.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T08:56:00.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WeatherDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\database_app\\WeatherDBContext.cs",
+              "RelativeDocumentMoniker": "WeatherDBContext.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\database_app\\WeatherDBContext.cs",
+              "RelativeToolTip": "WeatherDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T08:55:55.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\WinFormsApp1\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "..\\WinFormsApp1\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\WinFormsApp1\\Form1.Designer.cs",
+              "RelativeToolTip": "..\\WinFormsApp1\\Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T08:53:47.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\WinFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "..\\WinFormsApp1\\Form1.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\WinFormsApp1\\Form1.cs",
+              "RelativeToolTip": "..\\WinFormsApp1\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T08:49:35.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\WinFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "..\\WinFormsApp1\\Form1.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\WinFormsApp1\\Form1.cs [Design]",
+              "RelativeToolTip": "..\\WinFormsApp1\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T08:47:25.483Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": ".gitattributes",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\database_app\\.gitattributes",
+              "RelativeDocumentMoniker": ".gitattributes",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\database_app\\.gitattributes",
+              "RelativeToolTip": ".gitattributes",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF8SURBVDhPjVNLTgJBEG1lwpoFB3GNK9fieA48hD8iwT/ihwgSDAIHgAGXXsEV18CNzL/LquqZdsYM6kteXqcy3fWqpmpNRBgOhyABBEgpAFVKPIMUcYzUyOU\u002BXM/b2qtU3vkSfRjjZTCAMAw1A2LwzdFoBPP5HNqdzuL27n4juibWI\u002BUshBA1DIkhEx9iEorFotgslQqGYbxxAGFEqt1MxmPWJLbLZdZ\u002Bv89q5PMFPiTR6z2zdaxR0fXA0XTBcVywkb4fwHXjRteecIDNQ7UmExVYAdPcxYaqclN46na5WenMKjtlVnTYwcXlVYaDqImW9beD5N/TeGy32QHXm6hZ03ZgiSQHp2fnWQ4oBmJqWSqwAqZpZjt4aLXAD4J0VqyZsmoubfB8H2r1eoaD6NXZ9HcHO\u002BSA3f4AjifXl8rItOETM8ckB9WTWpYD9RdeZ1PWVWAHWXPQaDb59f/w8LiqHeh1pvGkCaP6qB8yXusoxmuNZ7XmII4O9vGuEF86osuDYRkpYQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-04-02T22:19:56.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Weather.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\database_app\\Weather.cs",
+              "RelativeDocumentMoniker": "Weather.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\database_app\\Weather.cs",
+              "RelativeToolTip": "Weather.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T17:43:37.445Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "28685b23-3551-4b21-87a4-9258e2ba78b9",
+        "Display": 0,
+        "X": 1083,
+        "Y": 373,
+        "Width": 1506,
+        "Height": 1029,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\database_app\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\database_app\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAEAAABkMjMzMzMrwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T08:31:17.043Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
