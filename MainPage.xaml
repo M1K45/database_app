@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MauiApp1"
+             x:Class="MauiApp1.MainPage">
+    <ScrollView> 
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+
+
+            <Label
+                Text="Wprowadź nazwę miasta do pobrania z API"
+                Style="{StaticResource SubHeadline}"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Welcome to dot net Multi platform App U I" />
+
+            <Entry 
+                x:Name="EntryCity"
+                Placeholder="Wprowadź nazwę miasta"/>
+
+            <Button
+                x:Name="CityBtn"
+                Text="Add"
+                SemanticProperties.Hint="Add entried city with current weather info to database"
+                Clicked="AddCityClicked"/>
+
+
+            <Label
+                Text="Wprowadź ręcznie informacje o mieście i państwie, w którym ono się znajduje"
+                Style="{StaticResource SubHeadline}"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Welcome to dot net Multi platform App U I" />
+
+            <Entry 
+                x:Name="EntryCityManual"
+                Placeholder="Wprowadź nazwę miasta"/>
+            <Entry 
+                x:Name="EntryTemperature"
+                Placeholder="Wprowadź temperaturę"/>
+            <Entry 
+                x:Name="Entrycountry"
+                Placeholder="Wprowadź państwo"/>
+            <Entry 
+                x:Name="EntryWeather"
+                Placeholder="Wprowadź opis pogody"/>
+            <Entry 
+                x:Name="EntryTimezone"
+                Placeholder="Wprowadź strefę czasową (dla państwa, zakłądając, że jest jedna)"/>
+
+
+            <Button
+                x:Name="ManualAddBtn"
+                Text="Add a record manually"
+                SemanticProperties.Hint="Add manually above data to the database"
+                Clicked="AddManuallyClicked"/>
+
+            <ListView x:Name="CitiesListView"
+              ItemsSource="{Binding Cities}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding name}"
+                                  Detail="{Binding weather}"/>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+        </VerticalStackLayout>
+    </ScrollView> 
+
+</ContentPage>

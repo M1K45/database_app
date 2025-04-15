@@ -5,16 +5,10 @@ using System;
 using System.Threading.Tasks;
 using database_app;
 
-/*
- * Pytania do prowadzącego 
- * - problem z bazą danych - nie mogę jej utworzyć
- * - jak dodać na gita kolejny projekt, jeśli go się utworzyło? 
- */ 
-
-
+// console app for bacis API call
 namespace database_app
 {
-
+   
     public class APITest
     {
         public HttpClient client;
@@ -23,7 +17,7 @@ namespace database_app
             client = new HttpClient();
             string call = "https://api.openweathermap.org/data/2.5/weather?lat=51&lon=51&appid=35191f5f03089db2dc2d68f960ec6bcb";
             string response = await client.GetStringAsync(call);
-            Weather foo = JsonSerializer.Deserialize<Weather>(response);
+            WeatherAPI foo = JsonSerializer.Deserialize<WeatherAPI>(response);
             Console.WriteLine(response);
             Console.WriteLine("Wynik: " + foo.ToString());
         }
@@ -40,32 +34,3 @@ namespace database_app
     }
 }
 
-//using database_app;
-//using System.Text.Json;
-
-//namespace WinFormsApp1
-//{
-//    public partial class Form1 : Form
-//    {
-//        private HttpClient client;
-//        public Form1()
-//        {
-//            InitializeComponent();
-//            client = new HttpClient();
-//        }
-
-//        private async void button1_Click(object sender, EventArgs e)
-//        {
-//            string key = "35191f5f03089db2dc2d68f960ec6bcb";
-//            string call = $"https://api.openweathermap.org/data/2.5/weather?q=Wroclaw&appid={key}";
-//            string response = await client.GetStringAsync(call);
-//            Weather weather = JsonSerializer.Deserialize<Weather>(response);
-//            listBox1.Items.Add(weather.ToString());
-//        }
-
-//        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
-//        {
-
-//        }
-//    }
-//}
